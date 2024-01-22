@@ -57,7 +57,7 @@ const App = () => {
             <div className="position-relative w-100" style={{height: "2px"}}>
               <button
                 type="button"
-                className="position-absolute start-50 translate-middle border-0 rounded bg-primary text-light px-2 py-1"
+                className="position-absolute start-50 translate-middle border-0 rounded bg-primary text-light px-2 py-5"
                 onClick={swap}
               >
                 swap
