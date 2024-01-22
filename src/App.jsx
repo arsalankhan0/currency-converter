@@ -28,12 +28,12 @@ const App = () => {
 
   return (
     <div
-      className="w-100 d-flex flex-wrap justify-content-center align-items-center bg-dark"
+      className="w-100 d-flex flex-wrap justify-content-center align-items-center bg-light"
       style={{height: '100vh'}}
     >
       <div className="container w-100">
         <h1 className="text-light text-center fw-light">Currency Converter</h1>
-        <div className="w-100 border border-secondary rounded p-5">
+        <div className="w-100 border border-secondary rounded p-1">
           <form
             onSubmit={(e)  => {
               e.preventDefault();
